@@ -1,0 +1,79 @@
+{
+  "name": "@sidvind/rollup-plugin-worker",
+  "version": "1.0.0",
+  "description": "Rollup plugin to import a worker and get the worker URL",
+  "keywords": [
+    "rollup",
+    "worker"
+  ],
+  "homepage": "https://github.com/ext/rollup-plugin-worker",
+  "bugs": {
+    "url": "https://github.com/ext/rollup-plugin-worker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ext/rollup-plugin-worker.git"
+  },
+  "license": "MIT",
+  "author": "David Sveningsson <ext@sidvind.com>",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "workspaces": [
+    "tests/*"
+  ],
+  "scripts": {
+    "prebuild": "tsc",
+    "build": "node build.js",
+    "eslint": "eslint --cache .",
+    "eslint:fix": "eslint --cache --fix .",
+    "prepack": "release-prepack package.json --bundle",
+    "postpack": "release-postpack package.json",
+    "prepare": "husky",
+    "prepublishOnly": "release-prepublish package.json --bundle",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "postpublish": "release-postpublish package.json",
+    "pretest": "npm run prettier:check && npm run eslint",
+    "test": "npm run --workspaces test"
+  },
+  "commitlint": {
+    "extends": "@html-validate"
+  },
+  "prettier": "@html-validate/prettier-config",
+  "dependencies": {
+    "magic-string": "0.30.17"
+  },
+  "devDependencies": {
+    "@html-validate/commitlint-config": "3.4.3",
+    "@html-validate/eslint-config": "6.1.3",
+    "@html-validate/eslint-config-typescript": "6.1.3",
+    "@html-validate/eslint-config-typescript-typeinfo": "6.1.3",
+    "@html-validate/prettier-config": "2.5.17",
+    "@html-validate/release-scripts": "6.8.0",
+    "@microsoft/api-extractor": "7.52.5",
+    "@rollup/plugin-node-resolve": "16.0.1",
+    "@tsconfig/node20": "20.1.5",
+    "@tsconfig/strictest": "2.0.5",
+    "@types/node": "20.17.32",
+    "esbuild": "0.25.3",
+    "husky": "9.1.7",
+    "is-ci": "4.1.0",
+    "npm-pkg-lint": "3.10.11",
+    "rollup": "4.40.1",
+    "typescript": "5.8.3"
+  },
+  "peerDependencies": {
+    "rollup": "^4.0.0"
+  },
+  "engines": {
+    "node": ">= 20"
+  },
+  "renovate": {
+    "extends": [
+      "gitlab>html-validate/renovate-config"
+    ]
+  }
+}
