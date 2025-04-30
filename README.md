@@ -1,6 +1,6 @@
 # @sidvind/rollup-plugin-worker
 
-![NPM Version](https://img.shields.io/npm/v/%40sidvind%2Frollup-plugin-worker)
+[![NPM Version](https://img.shields.io/npm/v/%40sidvind%2Frollup-plugin-worker)](https://www.npmjs.com/package/@sidvind/rollup-plugin-worker)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/ext/rollup-plugin-worker/.github%2Fworkflows%2Fbuild.yml)
 
 Rollup plugin to import a worker and get the worker URL.
