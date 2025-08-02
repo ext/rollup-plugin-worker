@@ -53,7 +53,7 @@
     "@html-validate/eslint-config-typescript-typeinfo": "6.5.4",
     "@html-validate/prettier-config": "3.0.8",
     "@html-validate/release-scripts": "6.9.0",
-    "@microsoft/api-extractor": "7.52.9",
+    "@microsoft/api-extractor": "7.52.10",
     "@rollup/plugin-node-resolve": "16.0.1",
     "@tsconfig/node20": "20.1.6",
     "@tsconfig/strictest": "2.0.5",
