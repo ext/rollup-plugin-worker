@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@html-validate/commitlint-config": "3.5.1",
-    "@html-validate/eslint-config": "6.5.4",
+    "@html-validate/eslint-config": "6.5.5",
     "@html-validate/eslint-config-typescript": "6.5.4",
     "@html-validate/eslint-config-typescript-typeinfo": "6.5.4",
     "@html-validate/prettier-config": "3.0.8",
