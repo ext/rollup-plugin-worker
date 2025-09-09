@@ -1,6 +1,6 @@
 {
   "name": "@sidvind/rollup-plugin-worker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rollup plugin to import a worker and get the worker URL",
   "keywords": [
     "rollup",
