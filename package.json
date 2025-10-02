@@ -63,7 +63,7 @@
     "is-ci": "4.1.0",
     "npm-pkg-lint": "4.1.1",
     "rollup": "4.52.3",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   },
   "peerDependencies": {
     "rollup": "^4.0.0"
