@@ -10,7 +10,7 @@
     "@sidvind/rollup-plugin-worker": "file:../../dist"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "16.0.1",
+    "@rollup/plugin-node-resolve": "16.0.2",
     "rollup": "4.52.4"
   }
 }
