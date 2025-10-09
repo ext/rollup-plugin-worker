@@ -1,7 +1,7 @@
 /* eslint-disable no-console -- expected to log */
 import fs from "node:fs/promises";
-import * as esbuild from "esbuild";
 import { Extractor, ExtractorConfig } from "@microsoft/api-extractor";
+import * as esbuild from "esbuild";
 import isCI from "is-ci";
 
 async function build() {

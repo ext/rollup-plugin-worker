@@ -1,5 +1,5 @@
-import { defineConfig } from "rollup";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
+import { defineConfig } from "rollup";
 import { workerPlugin } from "../../dist/index.js";
 
 export default defineConfig({

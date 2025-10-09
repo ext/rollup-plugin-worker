@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
-import { type Plugin } from "rollup";
 import MagicString from "magic-string";
+import { type Plugin } from "rollup";
 
 /**
  * Rollup plugin to import a worker and get the worker URL.
