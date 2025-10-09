@@ -26,7 +26,7 @@ export default [
 
 	{
 		name: "@html-validate/eslint-config-typescript",
-		files: ["**/*.ts"],
+		files: ["**/*.{ts,cts,mts}"],
 		...typescriptConfig,
 	},
 
@@ -37,7 +37,7 @@ export default [
 		languageOptions: {
 			parserOptions: {
 				tsconfigRootDir: rootDir,
-				project: ["./tsconfig.json"],
+				projectService: true,
 			},
 		},
 		...typescriptTypeinfoConfig,
