@@ -58,7 +58,7 @@
     "@tsconfig/node20": "20.1.6",
     "@tsconfig/strictest": "2.0.7",
     "@types/node": "20.19.24",
-    "esbuild": "0.25.12",
+    "esbuild": "0.26.0",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
     "npm-pkg-lint": "4.3.0",
