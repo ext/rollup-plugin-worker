@@ -1,4 +1,3 @@
-/* eslint-disable no-console -- expected to log */
 import fs from "node:fs/promises";
 import { Extractor, ExtractorConfig } from "@microsoft/api-extractor";
 import * as esbuild from "esbuild";
