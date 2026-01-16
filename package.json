@@ -57,7 +57,7 @@
     "@rollup/plugin-node-resolve": "16.0.3",
     "@tsconfig/node20": "20.1.8",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "20.19.29",
+    "@types/node": "20.19.30",
     "esbuild": "0.27.2",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
