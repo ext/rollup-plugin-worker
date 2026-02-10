@@ -1,5 +1,11 @@
 # @sidvind/rollup-plugin-worker changelog
 
+## 1.0.4 (2026-02-10)
+
+### Bug Fixes
+
+- return string unstead of `url` ([85b0cad](https://github.com/ext/rollup-plugin-worker/commit/85b0cadb70920cb8d1bed45f512cf91799974a7e))
+
 ## 1.0.3 (2025-10-25)
 
 ### Bug Fixes
