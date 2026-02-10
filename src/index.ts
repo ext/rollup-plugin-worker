@@ -48,7 +48,14 @@ export function workerPlugin(): Plugin {
 					type: "chunk",
 				});
 				return {
-					code: `export default new URL(__getWorkerFilename__("${chunkRef}"), import.meta.url);`,
+					code: [
+						`import { fileURLToPath } from "node:url";`,
+						``,
+						`const url = new URL(__getWorkerFilename__("${chunkRef}"), import.meta.url)`,
+						`const filePath = fileURLToPath(url)`,
+						``,
+						`export default filePath;`,
+					].join("\n"),
 					map: { mappings: "" },
 				};
 			}
