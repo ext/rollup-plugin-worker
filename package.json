@@ -47,7 +47,7 @@
     "magic-string": "0.30.21"
   },
   "devDependencies": {
-    "@html-validate/commitlint-config": "3.6.6",
+    "@html-validate/commitlint-config": "3.6.7",
     "@html-validate/eslint-config": "6.16.0",
     "@html-validate/eslint-config-typescript": "6.16.0",
     "@html-validate/eslint-config-typescript-typeinfo": "6.16.0",
