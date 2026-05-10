@@ -43,8 +43,8 @@ export default [
 		name: "local/tests",
 		files: ["tests/**/rollup.config.js"],
 		rules: {
-			"import/extensions": "off",
-			"import/no-unresolved": "off",
+			"import-x/extensions": "off",
+			"import-x/no-unresolved": "off",
 		},
 	},
 ];
