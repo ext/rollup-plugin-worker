@@ -10,7 +10,7 @@ async function build() {
 		sourcemap: true,
 		bundle: true,
 		platform: "node",
-		target: "node20",
+		target: "node22",
 		format: "esm",
 		metafile: true,
 		logLevel: "info",
