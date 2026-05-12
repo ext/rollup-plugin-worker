@@ -1,5 +1,15 @@
 # @sidvind/rollup-plugin-worker changelog
 
+## 2.0.0 (2026-05-12)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** NodeJS v22 or later is now required.
+
+### Features
+
+- **deps:** require nodejs v22 or later ([2183134](https://github.com/ext/rollup-plugin-worker/commit/21831343ee865c9c4e9de225964b203f603f603d))
+
 ## 1.0.4 (2026-02-10)
 
 ### Bug Fixes
