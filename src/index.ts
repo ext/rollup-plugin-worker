@@ -17,6 +17,7 @@ export function workerPlugin(): Plugin {
 			if (id.endsWith("?worker&url")) {
 				const filePath = id.replace("?worker&url", "");
 				const scopedId = `worker:${filePath}`;
+				/* eslint-disable-next-line unicorn/no-this-outside-of-class -- stateful object */
 				const resolved = await this.resolve(filePath, importer);
 				if (resolved) {
 					mapping.set(scopedId, resolved.id);
@@ -43,6 +44,7 @@ export function workerPlugin(): Plugin {
 				if (!resolvedId) {
 					return null;
 				}
+				/* eslint-disable-next-line unicorn/no-this-outside-of-class -- stateful object */
 				const chunkRef = this.emitFile({
 					id: resolvedId,
 					type: "chunk",
@@ -68,6 +70,7 @@ export function workerPlugin(): Plugin {
 			let match;
 			while ((match = regex.exec(code)) !== null) {
 				const chunkRef = match[1]!; // eslint-disable-line @typescript-eslint/no-non-null-assertion -- the group will definitly exist */
+				/* eslint-disable-next-line unicorn/no-this-outside-of-class -- stateful object */
 				const filename = this.getFileName(chunkRef);
 				matches.push({
 					filename,
