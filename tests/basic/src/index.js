@@ -1,6 +1,6 @@
 import * as assert from "node:assert/strict";
 import { Worker } from "node:worker_threads";
-import workerUrl from "./worker?worker&url";
+import workerUrl from "./worker.js?worker&url";
 
 const worker = new Worker(workerUrl);
 
