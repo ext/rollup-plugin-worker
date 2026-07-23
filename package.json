@@ -44,7 +44,7 @@
   },
   "prettier": "@html-validate/prettier-config",
   "dependencies": {
-    "magic-string": "0.30.21"
+    "magic-string": "1.0.0"
   },
   "devDependencies": {
     "@html-validate/commitlint-config": "4.3.0",
