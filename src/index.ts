@@ -1,5 +1,5 @@
 import fs from "node:fs/promises";
-import MagicString from "magic-string";
+import { MagicString } from "magic-string";
 import { type Plugin } from "rollup";
 
 /**
@@ -62,6 +62,7 @@ export function workerPlugin(): Plugin {
 			return null;
 		},
 
+		/* @ts-expect-error -- technical debt */
 		renderChunk(code) {
 			const regex = /__getWorkerFilename__\("([^"]+)"\)/g;
 			const matches = [];
