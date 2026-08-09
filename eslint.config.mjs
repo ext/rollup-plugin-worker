@@ -3,29 +3,15 @@
 
 import defaultConfig from "@html-validate/eslint-config";
 import typescriptConfig from "@html-validate/eslint-config-typescript";
-import typescriptTypeinfoConfig from "@html-validate/eslint-config-typescript-typeinfo";
+import typeinfoConfig from "@html-validate/eslint-config-typescript-typeinfo";
 
 export default [
-	...defaultConfig({ type: "module" }),
+	...defaultConfig({
+		type: "module",
+	}),
 
-	{
-		name: "@html-validate/eslint-config-typescript",
-		files: ["**/*.{ts,cts,mts}"],
-		...typescriptConfig,
-	},
-
-	{
-		name: "@html-validate/eslint-config-typeinfo",
-		files: ["src/**/*.{ts,cts,mts}"],
-		ignores: ["src/**/*.spec.ts"],
-		languageOptions: {
-			parserOptions: {
-				tsconfigRootDir: import.meta.dirname,
-				projectService: true,
-			},
-		},
-		...typescriptTypeinfoConfig,
-	},
+	typescriptConfig(),
+	typeinfoConfig(import.meta.dirname),
 
 	{
 		name: "local/tests",
