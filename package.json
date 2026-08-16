@@ -55,7 +55,7 @@
     "@html-validate/release-scripts": "7.6.0",
     "@microsoft/api-extractor": "7.58.12",
     "@rollup/plugin-node-resolve": "16.0.3",
-    "@tsconfig/node22": "22.0.5",
+    "@tsconfig/node22": "22.0.6",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "22.19.19",
     "@typescript/native": "npm:typescript@7.0.2",
