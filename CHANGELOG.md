@@ -1,5 +1,11 @@
 # @sidvind/rollup-plugin-worker changelog
 
+## 2.1.11 (2026-10-28)
+
+### Bug Fixes
+
+- **deps:** update dependency magic-string to v1.4.5 ([e5c951c](https://github.com/ext/rollup-plugin-worker/commit/e5c951cb02aab9da8022a4682d37a275c496cb30))
+
 ## 2.1.10 (2026-10-27)
 
 ### Bug Fixes
