@@ -62,7 +62,6 @@ export function workerPlugin(): Plugin {
 			return null;
 		},
 
-		/* @ts-expect-error -- technical debt */
 		renderChunk(code) {
 			const regex = /__getWorkerFilename__\("([^"]+)"\)/g;
 			const matches = [];
