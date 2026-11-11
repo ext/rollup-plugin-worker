@@ -54,9 +54,9 @@
   },
   "devDependencies": {
     "@html-validate/commitlint-config": "4.3.3",
-    "@html-validate/eslint-config": "9.24.10",
-    "@html-validate/eslint-config-typescript": "9.24.9",
-    "@html-validate/eslint-config-typescript-typeinfo": "9.24.2",
+    "@html-validate/eslint-config": "9.24.12",
+    "@html-validate/eslint-config-typescript": "9.24.13",
+    "@html-validate/eslint-config-typescript-typeinfo": "9.24.13",
     "@html-validate/prettier-config": "4.1.17",
     "@html-validate/release-scripts": "7.6.17",
     "@microsoft/api-extractor": "7.60.1",
