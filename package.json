@@ -68,7 +68,7 @@
     "esbuild": "0.28.2",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
-    "npm-pkg-lint": "5.4.1",
+    "npm-pkg-lint": "5.4.2",
     "rollup": "4.68.2",
     "typescript": "npm:@typescript/typescript6@6.0.2"
   },
